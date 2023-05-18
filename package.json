@@ -1,0 +1,27 @@
+{
+  "name": "cargar3",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@material-ui/styles": "^4.11.5",
+    "@mui/material": "^5.11.16",
+    "bootstrap": "^5.2.3",
+    "dotenv": "^16.0.3",
+    "eslint-config-next": "^13.3.0",
+    "express": "^4.18.2",
+    "next": "^13.3.0",
+    "nodemailer": "^6.9.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "^18.2.0"
+  }
+}
