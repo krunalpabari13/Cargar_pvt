@@ -15,7 +15,7 @@ const Thankyou = () => {
         <h1>Thank You!</h1>
         <p>Your message has been received.</p>
         <Link href="/">
-          <button style={{ padding: '10px 20px', background: 'white', color: 'black', border: 'none', borderRadius: '5px', cursor: 'pointer' }}>Go Home</button>
+          <button style={{ padding: '10px 20px', background: 'white', color: 'black', border: 'none', borderRadius: '5px', cursor: 'pointer' }}>Go To Home</button>
         </Link>
       </div>
     </div>

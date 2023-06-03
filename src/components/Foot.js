@@ -77,6 +77,7 @@ export default function Foot() {
         <div class="col-lg-6 col-md-6 col-sm-12 mt-4">
           <input type="text" name="name" class="form-control" placeholder="Full Name" required></input>
           <input type="hidden" name="_next" value="https://cargar.in/Thankyou.html"  ></input>
+          <input type="hidden" name="_captcha" value="false"></input>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 mt-4">
           <input type="email" name="email" class="form-control" placeholder="Email Address" required></input>
