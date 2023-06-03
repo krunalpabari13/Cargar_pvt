@@ -49,17 +49,18 @@ export default function MainNavbar2(props) {
              aria-current="page"
             
              onClick={moveToAbout}
+             style={{cursor:'pointer'}}
            >
              ABOUT
            </a>
          </li>
          <li className="nav-item">
-           <a className="nav-link active underline pe-4"  onClick={moveToCareer}>
+           <a className="nav-link active underline pe-4"  onClick={moveToCareer} style={{cursor:'pointer'}}>
              CAREER
            </a>
          </li>
          <li className="nav-item">
-           <a className="nav-link active underline pe-4"  onClick={moveToFooter} >
+           <a className="nav-link active underline pe-4"  onClick={moveToFooter} style={{cursor:'pointer'}}>
              CONTACT US
            </a>
          </li>

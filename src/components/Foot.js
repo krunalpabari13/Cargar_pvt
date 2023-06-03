@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react'
 export default function Foot() {
   let submit= async (e)=>{
@@ -32,38 +33,73 @@ export default function Foot() {
     />
   </a>
   
-  <form onSubmit={submit}>
+  {/* <form action="https://formsubmit.co/93458005a3998d260283964dc65d8308" method="POST">
         <h1 className="container text-white margin-top  ">LET'S CONNECT</h1>
         <div className="container">
           <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-12 mt-4">
               
-              <input type='text' className='form-control' placeholder='UserName' ></input>
-            </div>
+            <input type="text" name="name" class="form-control" placeholder="Full Name" />
+             </div> 
 
-            <div className="col-lg-6 col-md-6 col-sm-12 mt-4">
+             <div className="col-lg-6 col-md-6 col-sm-12 mt-4"> 
               
-              <input type='email' className='form-control' placeholder='Enter Your Email' id='email'></input>
+            <input type="email" name="email" class="form-control" placeholder="Email Address" />
             </div>
           </div>
 
           <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-12 mt-4">
               
-              <input type='text' className='form-control' placeholder='Entery Your PhoneNo' id='phone'></input>
+            <input type="phone" name="phone no" class="form-control" placeholder="Phoneno" />
             </div>
 
             <div className="col-lg-6 col-md-6 col-sm-12 mt-4">
               
-              <input type='text' className='form-control' placeholder='Type Your Message' id='message'></input>
+            <input type="text" name="message" class="form-control" placeholder="message" />
             </div>
           </div>
-
+          <input type="hidden" name="_next" value="/Thankyou"></input>
           <div className="text-center">
-          <input className="btn  btn-success btn-lg col-6 text-white mt-4 " type="submit" style={{margin:'auto',color:'lightgreen',borderRadius:'30px'}}></input>
+          
+          <button type="submit" className="btn  btn-success btn-lg col-6 text-white mt-4 " style={{margin:'auto',color:'lightgreen',borderRadius:'30px'}}>Submit Form</button>
           </div>
+        </div> */}
+
+
+
+        <div class="container">
+  
+  <form  action="https://formsubmit.co/67ef95e46796fc3b32187aac2341cae6" method="POST">
+ 
+    <div class="form-group">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 mt-4">
+          <input type="text" name="name" class="form-control" placeholder="Full Name" required></input>
+          <input type="hidden" name="_next" value="https://cargar.in/Thankyou.html"  ></input>
         </div>
-      </form>
-  </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 mt-4">
+          <input type="email" name="email" class="form-control" placeholder="Email Address" required></input>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 mt-4">
+          <input type="text" name="tel" class="form-control" placeholder="Phoneno" required></input>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 mt-4">
+          <input type="text" name="message" class="form-control" placeholder="Your Message"  required></input>
+       
+        </div>
+      </div>
+    
+      <div className="text-center">    
+          <button type="submit" className="btn  btn-success btn-lg col-6 text-white mt-4 " style={{margin:'auto',color:'lightgreen',borderRadius:'30px'}}>Submit Form</button>
+      </div>
+  </form>
+</div>
+</div>
+     
+    
   )
 }

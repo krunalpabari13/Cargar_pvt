@@ -1,10 +1,10 @@
 import React from 'react'
 
-import source from '../../public/MapDetails.png'
+import source from '../../public/mapdetails.png'
 export default function MapDetails() {
   return (
     <img
-    src="MapDetails.png"
+    src="mapdetails.png"
     className='mapdetail img-fluid'
     />
   )

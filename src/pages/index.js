@@ -22,7 +22,11 @@ const career=useRef();
     <> 
       <Head>
         <title>Home</title>
-        <link rel="icon" type="image/x-icon" href="/Temp. Home.png"/>
+        <meta name="description" content='cargar is a charge as a service platform which provide on-demand ev-charging'></meta>
+      <meta name="keywords" content='EV Charging,Ultra fast charging, smart and efficient charging, on-demand service, grid free charging'></meta>
+    
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </Head>
       <div>
         <MainNavbar2 contact={contact} career={career} about={about}></MainNavbar2>
