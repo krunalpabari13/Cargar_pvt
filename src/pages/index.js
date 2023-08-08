@@ -57,6 +57,7 @@ const career=useRef();
           </div>
         </div>
 
+    
         <div className="row margin-top" ref={about}>
           <div className="col-6">
             <Image1 />

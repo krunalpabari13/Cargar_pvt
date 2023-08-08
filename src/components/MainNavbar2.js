@@ -17,12 +17,12 @@ export default function MainNavbar2(props) {
   }
   return (
     <>
-  <nav className="navbar navbar-expand-lg navbar-dark ">
+  <nav className="navbar navbar-expand-lg navbar-dark  ">
    
    <a className="navbar-brand ps-4   " >
  <img     
              alt=""
-             src="/Temp. Home.png"
+             src="/newlogo.png"
              width="120"
              height="35"
              className="d-inline-block align-top img-fluid "

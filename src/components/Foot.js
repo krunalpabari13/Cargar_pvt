@@ -26,7 +26,7 @@ export default function Foot() {
     <div><a className="navbar-brand ps-4   " href="#">
     <img
       alt=""
-      src="/Temp. Home.png"
+      src="/newlogo.png"
       width="140"
       height="50"
       className=" align-top img-fluid "
